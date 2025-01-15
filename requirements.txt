@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+transformers
+vaderSentiment
+streamlit
+wordcloud
+torch
+datasets
+accelerate
+sentencepiece
+protobuf
+joblib
+streamlit
