@@ -53,7 +53,7 @@ if st.button("Analyze Sentiment"):
         st.write(f"**Probability:** Positive: {probabilities[1]:.4f}, Negative: {probabilities[0]:.4f}")
 
         # Visualize probabilities
-        st.subheader("Probability Distribution")
+        st.subheader("Probability Distribution by Logistic Regression")
         fig, ax = plt.subplots()
         ax.bar(["Negative", "Positive"], probabilities, color=["red", "green"])
         ax.set_ylabel("Probability")
